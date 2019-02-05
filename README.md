@@ -21,5 +21,5 @@ import nestio
 You can process files created by NEST's `SIONLogger` as follows:
 
 ```python
-nestio.Reader("/home/jochen/data.sion")
+nestio.Reader(b"/home/jochen/data.sion")
 ```
